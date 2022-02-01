@@ -1,10 +1,10 @@
 {
   "id": "obsidian-multi-cursor",
   "name": "Multi-cursor",
-  "version": "1.0.0",
-  "minAppVersion": "0.12.0",
-  "description": "Multi-cursor support.",
+  "version": "0.0.1",
+  "minAppVersion": "0.13.0",
+  "description": "Adds multi-cursor support which you can define Hotkeys for.",
   "author": "Ben Selby",
-  "authorUrl": "https://obsidian.md",
+  "authorUrl": "https://github.com/benmatselby/obsidian-multi-cursor",
   "isDesktopOnly": false
 }
