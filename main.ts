@@ -39,7 +39,8 @@ export default class MultiCursor extends Plugin {
 
     // Build out the new cursor location.
     const newLine = currentPosition.anchor.line + (location === CursorDirection.Above ? -1 : 1);
-    const newPosition = { line: newLine, ch: currentPosition.anchor.ch };
+    const newChar = Math.min(currentPosition.anchor.ch, editor.getLine(newLine).length);
+    const newPosition = { line: newLine, ch: newChar };
 
     // Add the new cursor.
     cursors.push({ anchor: newPosition, head: newPosition });
