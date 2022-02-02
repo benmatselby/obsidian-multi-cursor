@@ -14,6 +14,7 @@ Once you have done that, you can define the following hotkeys:
 
 - Multi-cursor: Add a cursor above the current line.
 - Multi-cursor: Add a cursor below the current line.
+- Multi-cursor: Add cursors to the end of every line in the selection.
 
 This will give you the following config in `.obsidian/hotkeys.json` for your vault.
 
@@ -34,6 +35,15 @@ This will give you the following config in `.obsidian/hotkeys.json` for your vau
         "Mod"
       ],
       "key": "ArrowDown"
+    }
+  ],
+  "obsidian-multi-cursor:add-cursors-to-selection": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "I"
     }
   ]
 ```
