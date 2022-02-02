@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## next
+## 0.0.2
 
 - Added the ability to add cursors to the end of each line in a selection.
 
