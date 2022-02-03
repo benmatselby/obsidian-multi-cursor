@@ -22,6 +22,9 @@ export default class Manipulator {
 
     // Build out the new cursor location.
     const newLine = currentPosition.anchor.line + (location === CursorDirection.Above ? -1 : 1);
+    if (newLine < 0) {
+      return;
+    }
     const newChar = Math.min(currentPosition.anchor.ch, editor.getLine(newLine).length);
     const newPosition = { line: newLine, ch: newChar };
 
