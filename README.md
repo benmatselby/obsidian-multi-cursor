@@ -6,9 +6,7 @@ This plugin provides Multi-cursor support, in the same way as Visual Studio Code
 
 ## Installation
 
-~Install the plugin via the community plugins process in Obsidian.~ - Not currently uploaded.
-
-Install the plugin via cloning this repo to `.obsidian/plugins/obsidian-multi-cursor`, and then running `npm install && npm run build`.
+Install the plugin via cloning this repo to `.obsidian/plugins/obsidian-multi-cursor`, and then running `npm install && npm run build`. You will then need to select "Reload app without saving" from the command palette. After the plugin is loaded, you to enable it via the "Community Plugins" section of the settings.
 
 Once you have done that, you can define the following hotkeys:
 
