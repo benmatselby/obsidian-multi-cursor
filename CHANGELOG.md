@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.0.4
+
+- Uplift to Obsidian 1.0.3.
+
 ## 0.0.3
 
 - Added the ability to duplicate the current line to the above/below locations.
