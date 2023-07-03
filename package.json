@@ -29,6 +29,6 @@
     "obsidian": "^1.1.1",
     "prettier": "^2.5.1",
     "tslib": "^2.4.1",
-    "typescript": "^5.0.2"
+    "typescript": "^5.1.6"
   }
 }
