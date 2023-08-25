@@ -39,3 +39,6 @@ updates:
       interval: 'weekly'
     commit-message:
       prefix: 'npm'
+    groups:
+      development-dependencies:
+        dependency-type: 'development'
