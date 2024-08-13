@@ -10,6 +10,7 @@ export default class MultiCursor extends Plugin {
   async onload() {
     const manipulator = new Manipulator();
     const duplicator = new Duplicator();
+
     this.addCommand({
       id: 'add-cursor-above',
       name: 'Add a cursor above the current line.',
