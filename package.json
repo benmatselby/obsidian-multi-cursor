@@ -18,18 +18,18 @@
   "author": "Ben Selby",
   "license": "MIT",
   "devDependencies": {
-    "@eslint/js": "^9.9.1",
-    "@types/node": "^22.5.2",
+    "@eslint/js": "^9.10.0",
+    "@types/node": "^22.5.4",
     "builtin-modules": "^4.0.0",
-    "concurrently": "^8.2.2",
+    "concurrently": "^9.0.0",
     "esbuild": "^0.23.1",
-    "eslint": "^9.9.1",
+    "eslint": "^9.10.0",
     "globals": "^15.9.0",
     "husky": "^9.1.5",
     "obsidian": "^1.5.7-1",
     "prettier": "^3.2.5",
     "tslib": "^2.7.0",
-    "typescript": "^5.4.5",
-    "typescript-eslint": "^8.4.0"
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.5.0"
   }
 }
