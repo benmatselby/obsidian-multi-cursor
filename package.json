@@ -19,17 +19,17 @@
   "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^9.10.0",
-    "@types/node": "^22.5.4",
+    "@types/node": "^22.5.5",
     "builtin-modules": "^4.0.0",
-    "concurrently": "^9.0.0",
+    "concurrently": "^9.0.1",
     "esbuild": "^0.23.1",
     "eslint": "^9.10.0",
     "globals": "^15.9.0",
-    "husky": "^9.1.5",
+    "husky": "^9.1.6",
     "obsidian": "^1.5.7-1",
     "prettier": "^3.2.5",
     "tslib": "^2.7.0",
     "typescript": "^5.6.2",
-    "typescript-eslint": "^8.5.0"
+    "typescript-eslint": "^8.6.0"
   }
 }
