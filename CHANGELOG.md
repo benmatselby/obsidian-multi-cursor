@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.0.6
+
+- Update of dependencies
+
 ## 0.0.5
 
 - Uplift to Obsidian 1.7+.
