@@ -1,6 +1,6 @@
 {
   "name": "obsidian-multi-cursor",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Multi-cursor support plugin for Obsidian (https://obsidian.md)",
   "main": "main.js",
   "scripts": {

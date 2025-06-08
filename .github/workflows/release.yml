@@ -1,15 +1,13 @@
-name: ci
+name: Release
 
-on: pull_request
+on:
+  release:
+    types: [published]
 
 jobs:
   build:
-    name: Build
-    strategy:
-      matrix:
-        node-version: [22]
     runs-on: ubuntu-latest
-
+    name: Build
     steps:
       - name: Check out the code
         uses: actions/checkout@v4.2.2
@@ -17,7 +15,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 22
           cache: 'npm'
         id: node
 
@@ -25,10 +23,13 @@ jobs:
         run: |
           npm ci
 
-      - name: Lint
-        run: |
-          npm run lint
-
       - name: Build
         run: |
           npm run build
+
+      - name: Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+
+          gh release upload ${{ github.event.release.tag_name }} main.js manifest.json
