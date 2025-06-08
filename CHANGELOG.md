@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.0.7
+
+- Update of dependencies.
+- Ensure assets are uploaded to the release.
+
 ## 0.0.6
 
 - Update of dependencies
