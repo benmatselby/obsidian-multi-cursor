@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.0.9
+
+- Update of dependencies.
+
 ## 0.0.8
 
 - Update of dependencies.
